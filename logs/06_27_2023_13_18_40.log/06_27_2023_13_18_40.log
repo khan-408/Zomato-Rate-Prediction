@@ -1,0 +1,3 @@
+[2023-06-27 13:18:46,114] 187 werkzeug - WARNING -  * Debugger is active!.
+[2023-06-27 13:18:46,119] 187 werkzeug - INFO -  * Debugger PIN: 115-426-962.
+[2023-06-27 13:18:52,669] 187 werkzeug - INFO -  * Detected change in 'h:\\projects under local ides\\zomato rate prediction\\application.py', reloading.

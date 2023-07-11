@@ -1,0 +1,26 @@
+[2023-07-10 12:49:48,145] 187 werkzeug - WARNING -  * Debugger is active!.
+[2023-07-10 12:49:48,151] 187 werkzeug - INFO -  * Debugger PIN: 586-305-466.
+[2023-07-10 12:49:57,356] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 12:49:58,695] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 12:49:58] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 12:51:04,885] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 12:51:05,317] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 12:51:05] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 12:53:04,176] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 12:53:04,725] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 12:53:04] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 12:54:25,600] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 12:54:26,028] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 12:54:26] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 12:55:29,012] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 12:55:29,459] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 12:55:29] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 12:57:31,403] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 12:57:31,902] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 12:57:31] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 12:57:55,487] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 12:57:55,931] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 12:57:55] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 12:58:42,737] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 12:58:43,182] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 12:58:43] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 13:02:34,248] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 13:02:34,681] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 13:02:34] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 13:02:41,512] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 13:02:41,886] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 13:02:41] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 13:03:35,446] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 13:03:35,882] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 13:03:35] "POST /predict_datapoints HTTP/1.1" 200 -.
+[2023-07-10 13:04:05,989] 72 root - INFO - Dataframe Gathered.
+[2023-07-10 13:04:06,351] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 13:04:06] "POST /predict_datapoints HTTP/1.1" 200 -.

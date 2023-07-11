@@ -1,0 +1,40 @@
+[2023-06-21 21:40:05,159] 31 root - INFO - Data Ingestion has been started..
+[2023-06-21 21:40:21,855] 36 root - INFO - Data has been read..
+[2023-06-21 21:40:51,635] 52 root - INFO - Dropping columns,Dropping Missing values and duplicates has been done.
+[2023-06-21 21:40:51,635] 54 root - INFO - Train_Test_Split.
+[2023-06-21 21:40:52,057] 63 root - INFO - Ingestion of Data has been completed.
+[2023-06-21 21:40:52,208] 63 root - INFO - reading train and test data is completed..
+[2023-06-21 21:40:52,290] 64 root - INFO - Train DataFrame Head: 
+    online_order  book_table    rate  votes               location            rest_type                                               cuisines cost      type                   city
+0         False       False  2.3 /5    132              Bellandur        Casual Dining            Andhra, South Indian, Chinese, North Indian  800  Dine-out          Sarjapur Road
+1          True       False  3.8 /5     40           Marathahalli       Dessert Parlor                                    Desserts, Ice Cream  150  Delivery           Marathahalli
+2          True       False  3.3 /5      8                 Domlur          Quick Bites                                           North Indian  400  Delivery       Old Airport Road
+3         False       False  4.7 /5   3217  Koramangala 5th Block  Cafe, Casual Dining  Chinese, American, Continental, Italian, North Indian  750  Dine-out  Koramangala 6th Block
+4         False       False  3.7 /5     22           Shivajinagar          Quick Bites                  North Indian, Chinese, Arabian, Rolls  350  Dine-out         Residency Road.
+[2023-06-21 21:40:52,297] 65 root - INFO - Test DataFrame Head: 
+    online_order  book_table    rate  votes               location                   rest_type                        cuisines   cost      type                   city
+0          True       False   3.7/5    161        Cunningham Road               Casual Dining                   Chinese, Thai    700  Delivery            Frazer Town
+1          True       False  3.2 /5      6       Old Airport Road                 Quick Bites  Bengali, North Indian, Chinese    300  Delivery       Old Airport Road
+2          True        True  4.4 /5    192  Koramangala 3rd Block                        Cafe                            Cafe  1,000  Dine-out  Koramangala 6th Block
+3          True       False   4.2/5    974            Indiranagar               Casual Dining                Chinese, Seafood  1,100  Delivery          Church Street
+4         False       False  3.1 /5      7  Koramangala 5th Block  Beverage Shop, Quick Bites    Beverages, Fast Food, Burger    200  Dine-out  Koramangala 6th Block.
+[2023-06-21 21:40:52,297] 68 root - INFO - Concatenating Train and test csvs.
+[2023-06-21 21:40:52,308] 73 root - INFO - Obtaining preprocessing object.
+[2023-06-21 21:40:52,415] 84 root - INFO - Train DataFrame Head: 
+    online_order  book_table  rate  votes               location            rest_type                                               cuisines   cost      type                   city
+0         False       False   2.3    132              Bellandur        Casual Dining            Andhra, South Indian, Chinese, North Indian  800.0  Dine-out          Sarjapur Road
+1          True       False   3.8     40           Marathahalli       Dessert Parlor                                    Desserts, Ice Cream  150.0  Delivery           Marathahalli
+2          True       False   3.3      8                 Domlur          Quick Bites                                           North Indian  400.0  Delivery       Old Airport Road
+3         False       False   4.7   3217  Koramangala 5th Block  Cafe, Casual Dining  Chinese, American, Continental, Italian, North Indian  750.0  Dine-out  Koramangala 6th Block
+4         False       False   3.7     22           Shivajinagar          Quick Bites                  North Indian, Chinese, Arabian, Rolls  350.0  Dine-out         Residency Road.
+[2023-06-21 21:40:52,416] 25 root - INFO - Getting data transsformation obj Initiated..
+[2023-06-21 21:40:52,728] 102 root - INFO - Train DataFrame Head: 
+    rate   votes   cost  online_order  book_table  location  rest_type  cuisines  type  city
+0   2.3   132.0  800.0           0.0         0.0       6.0       24.0     104.0   4.0  28.0
+1   3.8    40.0  150.0           1.0         0.0      55.0       37.0    1112.0   2.0  23.0
+2   3.3     8.0  400.0           1.0         0.0      16.0       73.0    1666.0   2.0  25.0
+3   4.7  3217.0  750.0           0.0         0.0      44.0       19.0     737.0   4.0  18.0
+4   3.7    22.0  350.0           0.0         0.0      78.0       73.0    1747.0   4.0  27.0.
+[2023-06-21 21:40:52,731] 108 root - INFO - Applying preprocessing object on training and testing datasets..
+[2023-06-21 21:40:52,734] 120 root - INFO - All sort of transformation has been done..
+[2023-06-21 21:40:52,735] 25 root - INFO - Defining Dependent and Independent features.

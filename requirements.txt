@@ -1,0 +1,8 @@
+#import required libraries
+pandas #It contains high-level data structures and manipulation tools designed to make data analysis fast and easy.
+numpy  #NumPy is a general-purpose array-processing package.
+matplotlib #It is a Plotting Library
+Flask
+seaborn #Seaborn is a Python data visualization library based on matplotlib.
+scikit-learn
+-e .
